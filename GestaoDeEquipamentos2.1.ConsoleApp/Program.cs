@@ -369,7 +369,7 @@ namespace GestaoDeEquipamentos2._1.ConsoleApp
             if (opcaoVisualizar == "T" || opcaoVisualizar == "t")
             {
 
-                for (int i = 0; i < chamados.Length; i++)
+                for (int i = 0; i < 100; i++)
                 {
 
                     if (chamados[i, 0] != null)
